@@ -1,0 +1,141 @@
+body{
+ background-image: url(http://wallpapersprinted.com/download/2/dark_colors_background-wallpaper-1280x800.jpg);
+}
+.content{
+	width: 100%;
+	height: 650px;
+	float: left;
+	background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rLkbLYQGxivvfdfxw/workout-in-the-gym-man-makes-exercises-on-the-simulator-in-the-gym-he-trains-the-chest-muscles-overall-plan-an-empty-hall-for-background_rxbwrggce_thumbnail-full01.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-filter: brightness(65%);
+    z-index: 0;
+}
+.detail{
+		width: 100%;
+		height: auto;
+		float: left;
+		position: absolute;
+		z-index: 1;
+		padding: 4%;
+		padding-left: 8%;
+		padding-top: 2%;
+	}
+.login{
+	width: 100%;
+	height: auto;
+	margin-top: 11%;
+	position: absolute;
+	z-index: 2;
+}
+.login-detail{
+	width: 35%;
+	height: auto;
+	background-image: url(http://wallpapersprinted.com/download/2/dark_colors_background-wallpaper-1280x800.jpg);
+	filter: opacity(85%);
+}
+.login-user{
+	width: 75%;
+	height: auto;
+
+}
+.login-user input{
+    width: 85%;
+    height: 40px;
+    padding: 2%;
+    background-color: transparent;
+    border: 1px solid silver;
+    outline: none;
+    border-top-right-radius: 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    color: white;
+}
+::-webkit-input-placeholder{
+	color: white;
+}
+.login-user-icon{
+	width: 15%;
+	height: 40px;
+	background-color: #FFF056;
+	color: black;
+	font-size: 20px;
+	float: left;
+}
+.login-pass{
+	width: 75%;
+	height: auto;
+	margin-top: 3%;
+
+}
+.login-pass input{
+    width: 85%;
+    height: 40px;
+    padding: 2%;
+    background-color: transparent;
+    border: 1px solid silver;
+    outline: none;
+    border-top-right-radius: 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    color: white;
+}
+::-webkit-input-placeholder{
+	color: white;
+}
+.login-pass-icon{
+	width: 15%;
+	height: 40px;
+	background-color: #FFF056;
+	color: black;
+	font-size: 20px;
+	float: left;
+}
+.btn-login{
+	width: 45%;
+	height: 40px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #FFF056;
+	background-color: #FFF056;
+	font-family: Montserrat;
+	font-size: 17px;
+	margin-top: 6%;
+	margin-bottom: 9%;
+}
+.btn-login:hover{
+	
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	font-family: Montserrat;
+	font-size: 17px;
+	-webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+}
+@media screen and (max-width: 500px){
+	.content,.detail,.login,.login-detail,.login-user,.login-pass,.btn-login{
+		width: 100%;
+	}
+	
+}
+@media screen and (max-width: 500px){
+	.login{
+		margin-top: 40%;
+	}
+	
+}
+@media screen and (max-width: 500px){
+	.detail{
+		margin-top: 5%;
+	}
+	
+}
+@media screen and (max-width: 500px){
+	.login-detail{
+		padding: 3%;
+	}
+	
+}

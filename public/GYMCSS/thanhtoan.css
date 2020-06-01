@@ -1,0 +1,474 @@
+body{
+	background-image: url(https://www.hldempsey.com/wp-content/uploads/wpfc-backup/2016/08/dark-background-images-7.jpg);
+  background-attachment: fixed;
+}
+.GH-login{
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: black;
+  padding: 1%;
+}
+.GH-login1{
+  width: 68%;
+  height: auto;
+  float: left;
+  color: white;
+  padding-left: 4%;
+  font-family:  Montserrat;
+}
+.GH-login2{
+  width: 32%;
+  height: auto;
+  float: left;
+  color: white;
+    font-family:  Montserrat;
+
+}
+@media screen and (max-width: 500px){
+  .GH-login,.GH-login1,.GH-login2{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px){
+  .GH-login2 p{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 500px){
+  .GH-login1{
+    display: none;
+  }
+}
+.GH-title{
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 2%;
+  background-color: black;
+}
+.GH-title-logo{
+  width: 15%;
+  height: auto;
+  float: left;
+  padding-left: 4%;
+  border-right: 2px solid white;
+}
+.GH-title-giohang{
+  width: 25%;
+  height: auto;
+  float: left;
+  padding: 3%;
+  padding-left: 1%;
+  font-size: 20px;
+  color: #FFF056;
+}
+.GH-title-search{
+  width: 60%;
+  height: auto;
+  float: left;
+}
+.GH-title-search input{
+  width: 80%;
+  height: 50px;
+  float: left;
+  border: 3px solid #FFF056;
+  border-top-left-radius: 3px;
+  padding: 1%;
+  outline: none;
+}
+.GH-title-search button{
+  width: 12%;
+  height: 50px;
+  float: left;
+  border: 3px solid #FFF056;
+  border-top-right-radius: 3px;
+  background-color: #FFF056;
+  outline: none;
+}
+.hovertext{
+  color: white;
+}
+.hovertext:hover{
+  color: #FFF056;
+}
+@media screen and (max-width: 500px){
+	.GH-title,.GH-title-logo,.GH-title-giohang,.GH-title-search{
+	  width: 100%;
+	}
+  }
+.content{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 5%;
+
+}
+.locate{
+	width: 100%;
+	height: auto;
+	float: left;
+	font-family: Montserrat;
+	color: white;
+}
+.locate-name{
+	width: 20%;
+	height: auto;
+	float: left;
+	padding-left: 2%;
+}
+.locate-phone{
+	width: 15%;
+	height: auto;
+	float: left;
+	padding-left: 2%;
+}
+.locate-addre{
+	width: 55%;
+	height: auto;
+	float: left;
+	padding-left: 2%;
+}
+.locate-change{
+	width: 10%;
+	height: auto;
+	float: left;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+@media screen and (max-width: 500px){
+	.content,.locate{
+	  width: 100%;
+	}
+  }
+@media screen and (max-width: 500px){
+	.locate-name,.locate-phone,.locate-addre,.locate-change{
+	  width: 50%;
+	}
+  }
+  @media screen and (max-width: 500px){
+	.locate-addre{
+	  width: 80%;
+	}
+  }
+  @media screen and (max-width: 500px){
+	.locate-change{
+	  width: 20%;
+	}
+  }
+  
+.detail-product{
+	width: 100%;
+	height: auto;
+	float: left;
+	color: white;
+	font-family: Montserrat;
+	margin-top: 6%;
+}
+.detail-product1{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.detail-product2{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 3%;
+}
+.detail-product-name{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+.detail-product-price{
+	width: 15%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.detail-product-count{
+	width: 10%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.detail-product-bonus{
+	width: 10%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.detail-product-sum{
+	width: 15%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+
+  @media screen and (max-width: 500px){
+	.detail-product,.detail-product1,.detail-product2{
+	  width: 100%;
+	}
+  }
+  @media screen and (max-width: 500px){
+	.none{
+	  display: none;
+	}
+  }
+  @media screen and (max-width: 500px){
+	.detail-product-name,.detail-product-price,.detail-product-count,.detail-product-bonus,.detail-product-sum{
+	 width: 100%;
+	}
+}
+@media screen and (max-width: 500px){
+	.detail-product-price,.detail-product-count,.detail-product-bonus,.detail-product-sum{
+	 width:30%;
+	 margin-top: 2%;
+	}
+}
+@media screen and (max-width: 500px){
+	.detail-product-sum{
+	 margin-top: 0%;
+	}
+}
+.detail-product-name-image{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.detail-product-image{
+	width: 20%;
+	height: auto;
+
+	float: left;
+}
+.detail-product-text{
+	width: 80%;
+	height: auto;
+	float: left;
+   padding-left: 2%;
+   padding-top: 1%;
+}
+.detail-product-name-type{
+	width: 30%;
+	height: auto;
+	float: left;
+
+}
+.detail-product1-mes{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 1%;
+}
+.detail-product1-mes input{
+	width: 70%;
+	height: 35px;
+	float: left;
+	outline: none;
+	border-radius: 3px;
+	border: 1px solid white;
+	padding: 2%;
+	color: black;
+
+}
+.detail-product1-delivername{
+	width: 15%;
+	height: auto;
+	float: left;
+	padding-top: 1%;
+}
+.detail-product1-delivery{
+	width: 25%;
+	height: auto;
+	float: left;
+}
+.detail-product1-change{
+	width: 10%;
+	height: auto;
+	float: left;
+	padding-top:1%; 
+}
+
+.detail-product1-price{
+	width: 10%;
+	height: auto;
+	float: left;
+	padding-top:1%;
+}
+@media screen and (max-width: 500px){
+	.detail-product1-mes,.detail-product1-mes input,.detail-product1-delivername,
+	.detail-product1-delivery,.detail-product1-change,.detail-product1-price{
+	 width: 100%;
+	}
+}
+@media screen and (max-width: 500px){
+	.sum{
+	font-size: 14px;
+	float: left;
+	}
+}
+.detail-product1-bonus{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.detail-product1-setbonus{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.detail-product1-setbonus input{
+	width: 80%;
+	height: 35px;
+	float: left;
+	border-top-left-radius: 3px;
+	border: 1px solid #FFF056;
+	color: black;
+	outline: none;
+	padding: 2%;
+}
+.detail-product1-setbonus button{
+	width: 20%;
+	height: 35px;
+	float: left;
+	border-top-right-radius: 3px;
+	background-color: #FFF056;
+	color: black;
+	outline: none;
+	border: 1px solid #FFF056;
+
+}
+.detail-product1-setbonus button:hover{
+	filter: brightness(110%);
+}
+@media screen and (max-width: 500px){
+	.detail-product1-bonus,.detail-product1-setbonus{
+	width: 100%;
+	}
+}
+@media screen and (max-width: 500px){
+	.sum{
+	font-size: 14px;
+	float: left;
+	}
+}
+.apay{
+	width: 10%;
+	height: 40px;
+	float: left;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	outline: none;
+	border-radius: 3px;
+	font-size: 16px;
+	margin: 1%;
+	margin-top: 0%;
+}
+.apay:hover{
+	border: 1px solid #FFF056;
+	color: #FFF056;
+}
+.crecard{
+	width: 15%;
+	height: 40px;
+	float: left;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	outline: none;
+	border-radius: 3px;
+	font-size: 14px;
+	margin-right: 1%;
+}
+.crecard:hover{
+	border: 1px solid #FFF056;
+	color: #FFF056;
+}
+.atm{
+	width: 20%;
+	height: 40px;
+	float: left;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	outline: none;
+	border-radius: 3px;
+	font-size: 13px;
+	margin-right: 1%;
+}
+.atm:hover{
+	border: 1px solid #FFF056;
+	color: #FFF056;
+}
+.done{
+	width: 20%;
+	height: 40px;
+	float: left;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	outline: none;
+	border-radius: 3px;
+	font-size: 14px;
+}
+.done:hover{
+	border: 1px solid #FFF056;
+	color: #FFF056;
+}
+@media screen and (max-width: 500px){
+	.apay,.crecard,.atm,.done{
+	display: none;
+	}
+}
+.detail-product2-space{
+	width: 70%;
+	height: 1px;
+	float: left;
+}
+@media screen and (max-width: 500px){
+	.detail-product2-space{
+	width: 0%;
+	}
+}
+.detail-product2-sum{
+	width: 30%;
+	height: auto;
+	float: left;
+}
+.detail-product2-sum1{
+	width: 100%;
+	height: auto;
+	float: left;
+	font-size: 15px;
+}
+.detail-sum-name{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.detail-sum-price{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.detail-product2-sum1 button{
+	width: 60%;
+	height: 50px;
+	border-radius: 3px;
+	border: 1px solid #FFF056;
+	background-color: #FFF056;
+	color: black;
+	font-size: 18px;
+	outline: none;
+}
+.detail-product2-sum1 button:hover{
+	filter: brightness(110%);
+}
+@media screen and (max-width: 500px){
+	.detail-product2-sum,.detail-product2-sum1,.detail-sum-name,.detail-sum-price,.detail-product2-sum1 button{
+	width: 100%;
+	}
+}

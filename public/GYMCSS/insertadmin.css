@@ -1,0 +1,323 @@
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2017/02/18/01/26/background-2076334_960_720.jpg);
+   background-size: 100% 100%;
+   background-attachment: fixed;
+}
+
+.frame{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.thongke{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.thongke-detail{
+	width: 23%;
+	height: 200px;
+	float: left;
+	padding: 3%;
+    margin: 1%;
+	background-image: url(https://davcapadvisors.com/wp-content/uploads/2019/03/stock-market.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+
+}
+.thongke-detail2{
+	width: 23%;
+	height: 200px;
+	float: left;
+    margin: 1%;
+    padding: 3%;
+	background-image: url(https://image.freepik.com/free-vector/stock-market-forex-trading-graph-graphic-concept_73426-35.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+  
+	border-radius: 8px;
+}
+.thongke-detail3{
+	width: 23%;
+	height: 200px;
+	float: left;
+    margin: 1%;
+    padding: 3%;
+	background-image: url(https://previews.123rf.com/images/nicedream/nicedream1805/nicedream180500003/101266593-stock-market-or-forex-trading-graph-in-graphic-double-exposure-concept-suitable-for-financial-invest.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+
+}
+.thongke-detail4{
+	width: 23%;
+	height: 200px;
+	float: left;
+    margin: 1%;
+    padding: 3%;
+	background-image: url(https://tapchitienao.com/wp-content/uploads/2018/03/mo-hinh-nen-nhat-trade-coin.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+
+}
+.chart{
+	width: 100%;
+	height:auto;
+	float: left;
+	margin-top: 5%;
+}
+.hovermenu{
+	font-family: Montserrat;
+	color: white;
+	margin-top: 5%;
+   font-size: 18px!important;
+}
+.hovermenu:hover{
+	color: #FFF056;
+
+}
+
+.menu-right1-input1{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.menu-right1-input1-name{
+  width: 40%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input1-born{
+  width: 20%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+.menu-right1-input1-sdt{
+  width: 20%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+
+.menu-right1-input1-cmnd{
+  width: 20%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+.menu-right1-input1-name input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-born input{
+  width: 100%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-sdt input{
+  width: 100%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-cmnd input{
+  width: 100%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 500px){
+  .menu-right1-input1,.menu-right1-input1-name,.menu-right1-input1-born,
+  .menu-right1-input1-lop,.menu-right1-input1-masv,.menu-right1-input1-name input,
+  .menu-right1-input1-born input,.menu-right1-input1-lop input,.menu-right1-input1-born1 input,.menu-right1-input1-lop1 input
+  ,.menu-right1-input1-masv input,.menu-right1-input1-sdt,.menu-right1-input1-sdt input,
+  .menu-right1-input1-cmnd,.menu-right1-input1-cmnd input{
+    width: 100%;
+  }
+
+}
+.menu-right1-input2{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.menu-right1-input2-image{
+  width: 40%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input2-image input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input2-tk{
+  width: 20%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input2-tk input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input2-mk{
+  width: 20%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input2-mk input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input2-id{
+  width: 20%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input2-id input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+
+@media screen and (max-width: 500px){
+  .menu-right1-input2,.menu-right1-input2-nganh,.menu-right1-input2-sdt,
+  .menu-right1-input2-cmnd,.menu-right1-input2-taikhoan,
+  .menu-right1-input2-matkhau,.menu-right1-input2-vang,.menu-right1-input2-nganh input,
+  .menu-right1-input2-sdt input,.menu-right1-input2-cmnd input,
+  .menu-right1-input2-taikhoan input,.menu-right1-input2-matkhau input,
+  .menu-right1-input2-vang input,.menu-right1-input2-image,.menu-right1-input2-image input,
+  .menu-right1-input2-tk,.menu-right1-input2-tk input,.menu-right1-input2-mk,.menu-right1-input2-mk input,
+  .menu-right1-input2-id,.menu-right1-input2-id input
+  {
+    width: 100%;
+  }
+
+}
+.menu-right1-input3{
+  width: 100%;
+  height: auto;
+  float: left;
+
+}
+.menu-right1-input3-diachi{
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input3-diachi input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input3-quequan{
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input3-quequan input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input3-follow{
+  width: 30%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input3-follow input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input3-detail{
+  width: 70%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input3-detail textarea{
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 500px){
+  .menu-right1-input3,.menu-right1-input3-diachi,.menu-right1-input3-quequan
+  ,.menu-right1-input3-follow,.menu-right1-input3-follow input,
+  .menu-right1-input3-detail,.menu-right1-input3-detail textarea,
+  .menu-right1-input3-diachi input,
+  .menu-right1-input3-quequan input{
+    width: 100%;
+  }
+
+}
+

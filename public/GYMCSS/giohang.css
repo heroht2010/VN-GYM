@@ -1,0 +1,285 @@
+body{
+  background-image: url(https://www.hldempsey.com/wp-content/uploads/wpfc-backup/2016/08/dark-background-images-7.jpg);
+  background-attachment: fixed;
+}
+.GH-login{
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: black;
+  padding: 1%;
+}
+.GH-login1{
+  width: 68%;
+  height: auto;
+  float: left;
+  color: white;
+  padding-left: 4%;
+  font-family:  Montserrat;
+}
+.GH-login2{
+  width: 32%;
+  height: auto;
+  float: left;
+  color: white;
+    font-family:  Montserrat;
+
+}
+@media screen and (max-width: 500px){
+  .GH-login,.GH-login1,.GH-login2{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px){
+  .GH-login2 p{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 500px){
+  .GH-login1{
+    display: none;
+  }
+}
+.GH-title{
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 2%;
+  background-color: black;
+}
+.GH-title-logo{
+  width: 15%;
+  height: auto;
+  float: left;
+  padding-left: 4%;
+  border-right: 2px solid white;
+}
+.GH-title-giohang{
+  width: 25%;
+  height: auto;
+  float: left;
+  padding: 3%;
+  padding-left: 1%;
+  font-size: 20px;
+  color: #FFF056;
+}
+.GH-title-search{
+  width: 60%;
+  height: auto;
+  float: left;
+}
+.GH-title-search input{
+  width: 80%;
+  height: 50px;
+  float: left;
+  border: 3px solid #FFF056;
+  border-top-left-radius: 3px;
+  padding: 1%;
+  outline: none;
+}
+.GH-title-search button{
+  width: 12%;
+  height: 50px;
+  float: left;
+  border: 3px solid #FFF056;
+  border-top-right-radius: 3px;
+  background-color: #FFF056;
+  outline: none;
+}
+.GH-content{
+  width: 100%;
+  height: auto;
+  float: left;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  margin-bottom: 10%;
+
+}
+.GH-detail-product{
+   width: 100%;
+   height: auto;
+   float: left;
+    background-color: black;
+    margin-top: 1%;
+   
+}
+.GH-detail-check{
+  width: 5%;
+  height: auto;
+  float: left;
+
+}
+.GH-detail-check input{
+  width: 45%;
+  height: 20px;
+  outline: none;
+
+}
+.GH-detail-sanpham{
+  width: 40%;
+  height: auto;
+  float: left;
+  padding: 5px;
+  
+}
+.GH-detail-sanpham-hinh{
+  width: 20%;
+  height: auto;
+  float: left;
+}
+.GH-detail-sanpham-chitiet{
+  width: 50%;
+  height: auto;
+  float: left;
+  padding-left: 3%;
+}
+.GH-detail-sanpham-phanloai{
+  width: 30%;
+  height: auto;
+  float: left;
+}
+.GH-detail-dongia{
+  width: 15%;
+  height: auto;
+  float: left;
+  
+}
+.GH-detail-soluong{
+  width: 10%;
+  height: auto;
+  float: left;
+  
+}
+.GH-detail-tongtien{
+  width: 15%;
+  height: auto;
+  float: left;
+
+}
+.GH-detail-thaotac{
+  width: 15%;
+  height: auto;
+  float: left;
+  
+}
+.GH-detail-product1{
+   width: 100%;
+   height: auto;
+   float: left;
+    background-color: black;
+    margin-top: 1%;
+   
+}
+.GH-detail-check1{
+  width: 5%;
+  height: auto;
+  float: left;
+  padding-top: 2%;
+
+}
+.GH-detail-sanpham1{
+  width: 40%;
+  height: auto;
+  float: left;
+ 
+  
+}
+.GH-detail-sanpham1-hinh{
+  width: 20%;
+  height: auto;
+  float: left;
+}
+.GH-detail-sanpham1-chitiet{
+  width: 50%;
+  height: auto;
+  float: left;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.GH-detail-sanpham1-phanloai{
+  width: 30%;
+  height: auto;
+  float: left;
+}
+.GH-detail-dongia1{
+  width: 15%;
+  height: auto;
+  float: left;
+  padding-top: 1%;
+  
+}
+.GH-detail-soluong1{
+  width: 10%;
+  height: auto;
+  float: left;
+text-align: center;
+  padding-top: 1%;
+}
+.GH-detail-soluong1 button{
+  width: 25%;
+  height: 30px;
+  background-color: #FFF056;
+  border: 1px solid #FFF056;
+
+  outline: none;
+}
+.GH-detail-soluong1 button:hover{
+  
+  filter: brightness(90%);
+ 
+  outline: none;
+}
+.GH-detail-soluong1 input{
+  width: 40%;
+  height: 30px;
+  text-align: center;
+  font-family: Montserrat;
+  border: 1px solid #FFF056;
+}
+.GH-detail-tongtien1{
+  width: 15%;
+  height: auto;
+  float: left;
+  padding-top: 1%;
+
+}
+.GH-detail-thaotac1{
+  width: 15%;
+  height: auto;
+  float: left;
+   padding-top: 0.5%;
+   text-align: center;
+}
+.btn-xoa{
+  width: 50%;
+  height: 30px;
+  background-color: #e00413;
+  outline: none;
+  border: 1px solid #e00413;
+  color: white;
+  font-family: Montserrat;
+  border-radius: 3px;
+}
+.btn-xoa:hover{
+  filter: brightness(90%);
+}
+.btn-muahang{
+   width: 50%;
+  height: 30px;
+  background-color: #FFF056;
+  outline: none;
+  border: 1px solid #FFF056;
+  color: black;
+  font-family: Montserrat;
+  border-radius: 3px;
+}
+.btn-muahang:hover{
+  filter: brightness(90%);
+}
+.hovertext{
+  color: white;
+}
+.hovertext:hover{
+  color: #FFF056;
+}

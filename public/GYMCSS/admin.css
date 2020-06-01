@@ -1,0 +1,630 @@
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2017/02/18/01/26/background-2076334_960_720.jpg);
+   background-size: 100% 100%;
+   background-attachment: fixed;
+}
+.navtop{
+	width: 100%;
+	height: 60px;
+	float: left;
+	background-color: #23282c;
+}
+.navtopleft{
+	width: 85%;
+	height: 60px;
+	float: left;
+}
+.navtopright{
+	width: 15%;
+	height: 60px;
+	float: left;
+	padding-top: 5px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  background-color: black;
+  min-width: 200px;
+}
+
+.dropdown-content a {
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Montserrat;
+
+}
+.dropdown-content a:hover {background-color: #FFF056;color: black; -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;}
+
+.dropdown:hover .dropdown-content {display: block;}
+.use{
+  color: #FFF056;
+}
+.frame{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.menu{
+	width: 18%;
+	height: auto;
+	float: left;
+
+}
+@media screen and (max-width: 500px){
+  .navtop{
+    display: none;
+  }
+}
+@media screen and (max-width: 500px){
+  .dropdown,.dropdown-content,.dropdown-content a ,.frame,.menu{
+    width: 100%;
+  }
+}
+.content{
+	width: 82%;
+	height: auto;
+	float: left;
+
+	padding: 4%;
+}
+.sidenav {
+  height: 900px;
+  width: 100%;
+  background-color: #23282c;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+  border: none;
+  color: white;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-family: Montserrat;
+  outline: none;
+}
+.dropdown-btn:hover{
+	color: #FFF056;
+}
+
+.active {
+  color: #FFF056;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.thongke{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.thongke-detail{
+	width: 23%;
+	height: 200px;
+	float: left;
+	padding: 3%;
+    margin: 1%;
+	background-image: url(https://davcapadvisors.com/wp-content/uploads/2019/03/stock-market.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+
+}
+.thongke-detail:hover{
+   -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+      box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thongke-detail2{
+	width: 23%;
+	height: 200px;
+	float: left;
+    margin: 1%;
+    padding: 3%;
+	background-image: url(https://image.freepik.com/free-vector/stock-market-forex-trading-graph-graphic-concept_73426-35.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+  
+	border-radius: 8px;
+}
+.thongke-detail2:hover{
+   -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+      box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thongke-detail3{
+	width: 23%;
+	height: 200px;
+	float: left;
+    margin: 1%;
+    padding: 3%;
+	background-image: url(https://previews.123rf.com/images/nicedream/nicedream1805/nicedream180500003/101266593-stock-market-or-forex-trading-graph-in-graphic-double-exposure-concept-suitable-for-financial-invest.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+
+}
+.thongke-detail3:hover{
+   -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+      box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thongke-detail4{
+	width: 23%;
+	height: 200px;
+	float: left;
+    margin: 1%;
+    padding: 3%;
+	background-image: url(https://tapchitienao.com/wp-content/uploads/2018/03/mo-hinh-nen-nhat-trade-coin.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+
+}
+.thongke-detail4:hover{
+   -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+      box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 500px){
+  .content,.thongke,.thongke-detail,.thongke-detail,.thongke-detail2,.thongke-detail3,.thongke-detail4{
+    width: 100%;
+  }
+}
+.chart{
+	width: 100%;
+	height:auto;
+	float: left;
+	margin-top: 5%;
+}
+.hovermenu{
+	font-family: Montserrat;
+	color: white;
+	margin-top: 5%;
+   font-size: 16px!important;
+}
+.hovermenu:hover{
+	color: #FFF056;
+
+}
+@media screen and (max-width: 500px){
+  .hovermenu{
+   font-size: 18px!important;
+  }
+}
+@media screen and (max-width: 500px){
+  .chart,#piechart,#piechart1{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px){
+  table {
+    width: 100%; display: block;
+  }
+}
+@media screen and (max-width: 500px){
+  tbody {
+    display: block;
+  height: auto; 
+  overflow-y: auto;  
+  overflow-x: auto;  
+  }
+}
+@media screen and (max-width: 500px){
+  thead,tbody {
+    display: block; 
+    width: 100%;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 500px){
+  thead {
+    font-size: 10px;
+  }
+}
+.menu-right1-input1{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.menu-right1-input1-name{
+  width: 35%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input1-born{
+  width: 20%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+.menu-right1-input1-lop{
+  width: 25%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+.menu-right1-input1-born1{
+  width: 30%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+.menu-right1-input1-lop1{
+  width: 30%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+.menu-right1-input1-masv{
+  width: 20%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+.menu-right1-input1-name input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-born input{
+  width: 100%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-born select{
+  width: 100%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-lop input{
+  width: 100%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-born1 input{
+  width: 90%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-lop1 input{
+  width: 90%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-masv input{
+  width: 90%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input1-masv select{
+  width: 90%;
+  height: 30px;
+   border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 500px){
+  .content,.menu-right1-input1,.menu-right1-input1-name,.menu-right1-input1-born,
+  .menu-right1-input1-lop,.menu-right1-input1-masv,.menu-right1-input1-name input,
+  .menu-right1-input1-born input,.menu-right1-input1-lop input,.menu-right1-input1-born1 input,.menu-right1-input1-lop1 input
+  ,.menu-right1-input1-masv input{
+    width: 100%;
+  }
+
+}
+.menu-right1-input2{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.menu-right1-input2-nganh{
+  width: 40%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input2-nganh input{
+  width: 95%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input2-sdt{
+  width: 30%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input2-sdt input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input2-cmnd{
+  width: 30%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input2-cmnd input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input2-taikhoan{
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input2-taikhoan input{
+  width: 95%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input2-matkhau{
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input2-matkhau input{
+  width: 95%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 500px){
+  .menu-right1-input2,.menu-right1-input2-nganh,.menu-right1-input2-sdt,
+  .menu-right1-input2-cmnd,.menu-right1-input2-taikhoan,
+  .menu-right1-input2-matkhau,.menu-right1-input2-vang,.menu-right1-input2-nganh input,
+  .menu-right1-input2-sdt input,.menu-right1-input2-cmnd input,
+  .menu-right1-input2-taikhoan input,.menu-right1-input2-matkhau input,
+  .menu-right1-input2-vang input
+  {
+    width: 100%;
+  }
+
+}
+.menu-right1-input3{
+  width: 100%;
+  height: auto;
+  float: left;
+
+
+}
+
+.menu-right1-input3-diachi{
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input3-diachi input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input3-quequan{
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.menu-right1-input3-quequan input{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input3-overview{
+  width: 70%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+.menu-right1-input3-overview textarea{
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.menu-right1-input3-mota{
+  width: 30%;
+  height: auto;
+  float: left;
+   padding: 1%;
+}
+.menu-right1-input3-mota input{
+    width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  padding: 2%;
+  outline: none;
+  font-family: Montserrat;
+}
+.froala-editor{
+  width: 100%;
+  height: 400px!important;
+  float: left;
+}
+@media screen and (max-width: 500px){
+  .menu-right1-input3,.menu-right1-input3-diachi,.menu-right1-input3-quequan,.menu-right1-input3-overview,
+  .menu-right1-input3-diachi input,.menu-right1-input3-overview textarea,.menu-right1-input3-mota,
+  .menu-right1-input3-quequan input,.menu-right1-input3-mota input,.froala-editor{
+    width: 100%;
+  }
+
+}
+.titlename{
+  font-size: 25px;
+}
+@media screen and (max-width: 500px){
+  .titlename{
+  font-size: 23px;
+  }
+
+}
+.ngay{
+  width: 8%;
+  height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  outline: none;
+
+}
+.thang{
+  width: 8%;
+  height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  outline: none;
+  
+}
+.nam{
+  width: 8%;
+  height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  outline: none;
+  
+}
+.btn-send{
+  width: 10%;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: #FFF056;
+  color: black;
+  outline: none;
+  font-family: Montserrat;
+}
+.btn-send:hover{
+  filter: brightness(110%);
+}
+.btn-day{
+  width: 10%;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: #FFF056;
+  color: black;
+  outline: none;
+  font-family: Montserrat;
+}
+.btn-day:hover{
+  filter: brightness(110%);
+}
+@media screen and (max-width: 500px){
+  .ngay,.thang,.nam,.btn-send,.btn-day{
+    width: 100%;
+  }
+
+}

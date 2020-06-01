@@ -1,0 +1,226 @@
+body{
+       /*overflow-y: hidden;*/
+      background-image: url(http://wallpapersprinted.com/download/2/dark_colors_background-wallpaper-1280x800.jpg);
+  }
+.content{
+		width: 100%;
+		height: 700px;
+		background-image: url(https://s1.1zoom.me/big0/380/Fitness_Brown_haired_Belly_543926_1280x854.jpg);
+		background-size: 100% 100%;
+		-webkit-filter: brightness(65%);
+		background-repeat: no-repeat;
+		position: absolute;
+		z-index: 0;
+	}
+	.detail{
+		width: 100%;
+		height: auto;
+		float: left;
+		position: absolute;
+		z-index: 1;
+		padding: 4%;
+		padding-left: 8%;
+		padding-top: 2%;
+	}
+	.logout{
+		width: 100%;
+		height: auto;
+		position: absolute;
+		z-index: 2;
+		margin-top: 8%;
+        padding: 4%;
+        padding-bottom: 0%;
+        padding-top: 1%;
+	}
+	.logout-left{
+		width: 50%;
+		height: auto;
+		float: left;
+	}
+	.logout-right{
+		width: 50%;
+		height: auto;
+		float: left;
+        padding: 2%;
+		background-image: url(http://wallpapersprinted.com/download/2/dark_colors_background-wallpaper-1280x800.jpg);
+		filter: opacity(65%);
+	}
+	.logout-right1{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-bottom: 2%;
+        
+	}
+	.logout-right1-lastname{
+		width: 50%;
+		height: auto;
+		padding-right: 2%;
+		float: left;
+
+			}
+			.logout-right1-firstname{
+				width: 50%;
+				height: auto;
+				float: left;
+				padding-left: 2%;
+			}
+	.logout-right2{
+		width: 100%;
+		height: auto;
+        margin-top: 2%;
+	}
+	.logout-right-icon{
+		width: 10%;
+		height: 50px;
+		background-color: #FFF056;
+		float: left;
+
+	}
+	.logout-right-icon{
+		font-size: 40px;
+	}
+	.logout_ten{
+		width: 90%;
+		height: 50px;
+		background-color: transparent;
+		border-top: 0px;
+		border-right: 0px;
+		border: 1px solid silver;
+		border-left: 2px solid #FFF056;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		outline: none;
+		color: white;
+		padding: 2%;
+		font-size: 20px;
+		font-family: Montserrat;
+	}
+	.logout-right-icon1{
+		width: 20%;
+		height: 50px;
+		background-color: #FFF056;
+		float: left;
+
+	}
+	.logout-right-icon1{
+		font-size: 40px;
+	}
+	.logout_ten1{
+		width: 80%;
+		height: 50px;
+		background-color: transparent;
+		border-top: 0px;
+		border-right: 0px;
+		border: 1px solid silver;
+		border-left: 2px solid #FFF056;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		outline: none;
+		color: white;
+		padding: 2%;
+		font-size: 20px;
+		font-family: Montserrat;
+	}
+	.logout_ten:focus{
+		border-bottom: 2px solid #FFF056;
+
+        -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+	}
+	::-webkit-input-placeholder{
+		color: white;
+	}
+	.btn-register{
+		width: 30%;
+		height: 55px;
+		background-color: #FFF056;
+		border: 1px solid #FFF056;
+		outline: none;
+		color: black;
+		border-radius: 3px;
+		font-size: 23px;
+		font-family: Montserrat;
+	}
+	.btn-register:hover{
+		
+		background-color: transparent;
+		border: 2px solid white;
+		outline: none;
+		color: white;
+		border-radius: 3px;
+		font-size: 23px;
+		font-family: Montserrat;
+		-webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+
+	}
+.sari{
+	color: white;
+	float: left;
+	font-family: Montserrat;
+	font-size: 16px;
+	width: 100%;
+	margin-top: 2%;
+
+}
+.sari:hover{
+	color: #FFF056;
+}
+.copyright{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+@media screen and (max-width: 500px){
+	.logout-left{
+		display: none;
+	}
+}
+@media screen and (max-width: 500px){
+	.logout-right{
+		margin-top: 20%;
+	}
+}
+@media screen and (max-width: 500px){
+	.logout-right1 span{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 500px){
+	.logout-right2 span{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 500px){
+	.btn-register{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 500px){
+	.logout-right-icon1{
+		width: 10%;
+	}
+}
+@media screen and (max-width: 500px){
+	.logout_ten1{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 500px){
+	.logout-right1-lastname,.logout-right1-firstname{
+		padding: 0%;
+	}
+}
+@media screen and (max-width: 500px){
+	.logout-right1-firstname{
+		margin-top: 2%;
+	}
+}
+@media screen and (max-width: 500px){
+    .content,.detail,.logout-right,.logout-right1,.logout-right2,.logout-right1-lastname,.logout-right1-firstname{
+        width: 100%;
+    }
+}
