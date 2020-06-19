@@ -120,3 +120,21 @@ Route::post('getcomment','home_contronller@get_comment')->name('getcomment');
 Route::post('checklogin','home_contronller@check_login')->name('checklogin');
 
 Route::post('searchproduct','home_contronller@search_Product')->name('searchproduct');
+
+Route::post('cartproduct','home_contronller@cart_Product')->name('cartproduct');
+
+Route::post('addcartproduct','home_contronller@addcart_Product')->name('addcartproduct');
+
+Route::post('getsameproduct','home_contronller@getsame_Product')->name('getsameproduct');
+
+Route::get('getfavourproduct','home_contronller@get_productfavor')->name('getfavourproduct');
+
+Route::post('addorder','home_contronller@addorder_Product')->name('addorder');
+
+Route::post('getorder','home_contronller@getorder_Product')->name('getorder');
+
+Route::post('ratingdetailproduct','home_contronller@getrating_Product')->name('ratingdetailproduct');
+
+Route::post('commentproduct','home_contronller@addcomment_Product')->name('commentproduct');
+
+Route::post('updateprofile','home_contronller@update_Profile')->name('updateprofile');

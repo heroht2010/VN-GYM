@@ -20,7 +20,15 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
-        "http://192.168.1.3/VN-GYM/public/checklogin",
-        "http://192.168.1.3/VN-GYM/public/searchproduct",
+        "http://192.168.1.5/VN-GYM/public/checklogin",
+        "http://192.168.1.5/VN-GYM/public/searchproduct",
+        "http://192.168.1.5/VN-GYM/public/cartproduct",
+        "http://192.168.1.5/VN-GYM/public/addcartproduct",
+        "http://192.168.1.5/VN-GYM/public/getsameproduct",
+        "http://192.168.1.5/VN-GYM/public/addorder",
+        "http://192.168.1.5/VN-GYM/public/getorder",
+        "http://192.168.1.5/VN-GYM/public/ratingdetailproduct",
+        "http://192.168.1.5/VN-GYM/public/commentproduct",
+        "http://192.168.1.5/VN-GYM/public/updateprofile",
     ];
 }

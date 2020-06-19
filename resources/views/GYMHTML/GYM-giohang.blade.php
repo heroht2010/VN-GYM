@@ -52,7 +52,7 @@
 </style>
 </head>
 <body>
-	
+
   <div class="GH-login">
   	<div class="GH-login1">
   		<p style="float: left;margin-right: 2%" class="hovertext"><span class="glyphicon glyphicon-bell" style="color: #FFF056"></span>Thông báo</p>
@@ -84,18 +84,18 @@
   		<input type="text" name="tim" placeholder="Kinh doanh phải đi đôi với chữ TÍN" style="font-family: Montserrat;font-size: 16px">
   		<button><span class="glyphicon glyphicon-search" style="font-size: 20px;"></span></button>
   	</div>
-  	
+
   </div>
   <div class="GH-content">
   <div class="GH-detail-product">
   	<div class="GH-detail-check">
   		<center>
-        <input type="checkbox" name="checkbox">   
+        <input type="checkbox" name="checkbox">
       </center>
   	</div>
   	<div class="GH-detail-sanpham">
   			<p style="margin-bottom: 1px;font-family: Montserrat;font-size: 18px;color: #FFF056" class="hovertext">Sản Phẩm</p>
-  		
+
   	</div>
   	<div class="GH-detail-dongia">
   		<p style="margin-bottom: 1px;font-family: Montserrat;font-size: 18px;color: #FFF056;text-align: center;" class="hovertext">Đơn Giá</p>
@@ -110,9 +110,9 @@
   		<p style="margin-bottom: 1px;font-family: Montserrat;font-size: 18px;color: #FFF056;text-align: center" class="hovertext">Hành Động</p>
   	</div>
   </div>
-  
+
     @foreach ($data as $item)
-   
+
   <div class="GH-detail-product1">
     <div class="GH-detail-check1">
       <center><input type="checkbox" name="check"></center>
@@ -129,7 +129,7 @@
           <p style="margin-bottom: 1px;font-family: Montserrat;font-size: 18px;color: #FFF056" class="hovertext" >Loại</p>
           <p style="margin-bottom: 1px;font-family: Montserrat;font-size: 15px;color: white" class="hovertext" id="type{{$item->id_product}}">{{$item->product()->get()->first()->loai->product_type}}</p>
         </div>
-      
+
     </div>
     <div class="GH-detail-dongia1">
       <p style="margin-bottom: 1px;font-family: Montserrat;font-size: 15px;color: white;text-align: center;" id="dongia{{$item->id_product}}" class="hovertext" >{{$item->product()->get()->first()->price}}</p>
@@ -151,13 +151,13 @@
    var tongtien=$("#tongtien{{$item->id_product}}").text();
        var dongia=$("#dongia{{$item->id_product}}").text();
       var soluong=document.getElementById("soluong{{$item->id_product}}");
-      
+
       if (parseInt(soluong.value)<3) {
         soluong.value=parseInt(soluong.value)+1;
          tongtien=tongtien.replace(/[^0-9\s]/gi, '');
-         
+
          dongia=dongia.replace(/[^0-9\s]/gi, '');
-         
+
        tongtien=parseInt(tongtien)+parseInt(dongia);
         document.getElementById("tongtien{{$item->id_product}}").innerHTML=tongtien+" VNĐ";
       }
@@ -181,7 +181,7 @@
         document.getElementById("tongtien{{$item->id_product}}").innerHTML=tongtien+" VNĐ";
       }
     });
-      
+
       $("#but-xoa{{$item->id_product}}").on('click',function(event){
         $.ajaxSetup({
     headers: {
@@ -192,7 +192,7 @@
             url: "{{route('deletecart')}}",
             type: "POST",
             data: {
-                   
+
               name: $("#name{{$item->id}}").text(),
               id_product: <?php echo $item->id_product;?>
             },
@@ -209,11 +209,11 @@
               window.location="{{route('giohang')}}";
             }
             else{
-             alert("Có lỗi xảy ra"); 
+             alert("Có lỗi xảy ra");
             }
           });
         });
-    
+
   </script>
 
   @endforeach

@@ -9,7 +9,7 @@ class donhangdetail_model extends Model
     //
     protected $table='donhang';
     public $timestamps=false;
-    
+
     public function donhang()
     {
         return $this->hasOne('App\donhang_model','madh','madh');

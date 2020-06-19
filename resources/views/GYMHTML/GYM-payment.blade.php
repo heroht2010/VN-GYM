@@ -84,7 +84,7 @@
     <a href="{{route('dangxuat')}}" style="text-decoration: none;"><span class="glyphicon glyphicon-log-out" style="margin-right: 3%"></span>Đăng Xuất</a>
   </div>
 </div>
-  		
+
   	</div>
   </div>
   <div class="TPBS-title">
@@ -96,7 +96,7 @@
   		<button><span class="glyphicon glyphicon-search" style="font-size: 20px;"></span></button>
   	</div>
   	<div class="TPBS-title-cart">
-      <?php 
+      <?php
        if (session()->get('user')!='') {
         echo '<a href="'.route("giohang").'"><button><span class="glyphicon glyphicon-shopping-cart"></span><b style="font-family: Montserrat;margin-left: 3%;text-decoration: none;">Giỏ hàng</b></button></a>';
                }
@@ -105,7 +105,7 @@
 
        }
        ?>
-  		
+
   	</div>
   </div>
  <div class="PAY-content">
@@ -122,14 +122,14 @@
        </div>
      </div>
      <hr style="clear: both;border:0.5px solid gray">
-      
+
       <div class="profile-detail1">
        <div class="profile-detail-image1">
          <img src="https://image.flaticon.com/icons/svg/1256/1256661.svg" style="height:30px;width: 100%;float: left;">
        </div>
        <div class="profile-detail-text1">
          <p style="font-size: 15px;padding-top: 2%">Tài Khoản Của Tôi</p>
-         
+
        </div>
      </div>
 
@@ -139,7 +139,7 @@
        </div>
        <div class="profile-detail-text1">
          <p style="font-size: 15px;padding-top: 2%">Đơn Mua Hàng</p>
-         
+
        </div>
      </div>
 
@@ -149,7 +149,7 @@
        </div>
        <div class="profile-detail-text1">
          <p style="font-size: 15px;padding-top: 2%">Thông Báo</p>
-         
+
        </div>
      </div>
 
@@ -159,7 +159,7 @@
        </div>
        <div class="profile-detail-text1">
          <p style="font-size: 15px;padding-top: 2%">Voucher</p>
-         
+
        </div>
      </div>
 
@@ -183,8 +183,8 @@
     <div id="home" class="tab-pane fade in active">
        <?php foreach ($data as $key => $value): ?>
         <!--  -->
-        
-         <?php 
+
+         <?php
          if ($value->donhang()->first()->trangthai=='cho') {
            echo "<div class='detail-tab'>
       <div class='tab-title'>
@@ -211,17 +211,17 @@
           <p style='font-size: 13px;margin-bottom: 1px'>Hương vị: ".$value['huongvisp']."</p>
           <p style='font-size: 15px'>X ".$value['soluong']."</p>
         </div>
-        
+
         <div class='title-price'>
           <p>".$value['dongia']."</p>
         </div>
       </div>
       <hr style='clear: both;border: 0.5px solid gray;'>
-      
+
       <div class='tab-title'>
 
         <div class='title-space'>
-          
+
         </div>
 
         <div class='title-sum'>
@@ -232,7 +232,7 @@
       <div class='tab-title'>
 
         <div class='title-space1'>
-          
+
         </div>
 
         <div class='title-button'>
@@ -269,17 +269,17 @@
           <p style='font-size: 13px;margin-bottom: 1px'>Hương vị: ".$value['huongvisp']."</p>
           <p style='font-size: 15px'>X ".$value['soluong']."</p>
         </div>
-        
+
         <div class='title-price'>
           <p>".$value['dongia']."</p>
         </div>
       </div>
       <hr style='clear: both;border: 0.5px solid gray;'>
-      
+
       <div class='tab-title'>
 
         <div class='title-space'>
-          
+
         </div>
 
         <div class='title-sum'>
@@ -290,7 +290,7 @@
       <div class='tab-title'>
 
         <div class='title-space1'>
-          
+
         </div>
 
         <div class='title-button'>
@@ -327,17 +327,17 @@
           <p style='font-size: 13px;margin-bottom: 1px'>Hương vị: ".$value['huongvisp']."</p>
           <p style='font-size: 15px'>X ".$value['soluong']."</p>
         </div>
-        
+
         <div class='title-price'>
           <p>".$value['dongia']."</p>
         </div>
       </div>
       <hr style='clear: both;border: 0.5px solid gray;'>
-      
+
       <div class='tab-title'>
 
         <div class='title-space'>
-          
+
         </div>
 
         <div class='title-sum'>
@@ -348,7 +348,7 @@
       <div class='tab-title'>
 
         <div class='title-space1'>
-          
+
         </div>
 
         <div class='title-button'>
@@ -383,17 +383,17 @@
           <p style='font-size: 13px;margin-bottom: 1px'>Hương vị: ".$value['huongvisp']."</p>
           <p style='font-size: 15px'>X ".$value['soluong']."</p>
         </div>
-        
+
         <div class='title-price'>
           <p>".$value['dongia']."</p>
         </div>
       </div>
       <hr style='clear: both;border: 0.5px solid gray;'>
-      
+
       <div class='tab-title'>
 
         <div class='title-space'>
-          
+
         </div>
 
         <div class='title-sum'>
@@ -404,7 +404,7 @@
       <div class='tab-title'>
 
         <div class='title-space1'>
-          
+
         </div>
 
         <div class='title-button'>
@@ -416,14 +416,14 @@
             }
           }
          }
-          ?> 
-      
+          ?>
+
    <?php endforeach ?>
    </div>
-   
+
     <div id="menu1" class="tab-pane fade">
      <?php foreach ($data as $key => $value): ?>
-       <?php 
+       <?php
        if ($value->donhang()->first()->trangthai=='cho') {
          echo "<div class='detail-tab'>
       <div class='tab-title'>
@@ -450,17 +450,17 @@
           <p style='font-size: 13px;margin-bottom: 1px'>Hương vị: ".$value['huongvisp']."</p>
           <p style='font-size: 15px'>X ".$value['soluong']."</p>
         </div>
-        
+
         <div class='title-price'>
           <p>".$value['dongia']."</p>
         </div>
       </div>
       <hr style='clear: both;border: 0.5px solid gray;'>
-      
+
       <div class='tab-title'>
 
         <div class='title-space'>
-          
+
         </div>
 
         <div class='title-sum'>
@@ -471,7 +471,7 @@
       <div class='tab-title'>
 
         <div class='title-space1'>
-          
+
         </div>
 
         <div class='title-button'>
@@ -490,7 +490,7 @@
 
     <div id="menu2" class="tab-pane fade">
       <?php foreach ($data as $key => $value): ?>
-        <?php 
+        <?php
          if ($value->donhang()->first()->trangthai=='dang') {
            echo "<div class='detail-tab'>
       <div class='tab-title'>
@@ -517,17 +517,17 @@
           <p style='font-size: 13px;margin-bottom: 1px'>Hương vị: ".$value['huongvisp']."</p>
           <p style='font-size: 15px'>X ".$value['soluong']."</p>
         </div>
-        
+
         <div class='title-price'>
           <p>".$value['dongia']."</p>
         </div>
       </div>
       <hr style='clear: both;border: 0.5px solid gray;'>
-      
+
       <div class='tab-title'>
 
         <div class='title-space'>
-          
+
         </div>
 
         <div class='title-sum'>
@@ -538,7 +538,7 @@
       <div class='tab-title'>
 
         <div class='title-space1'>
-          
+
         </div>
 
         <div class='title-button'>
@@ -553,7 +553,7 @@
     </div>
     <div id="menu3" class="tab-pane fade">
       <?php foreach ($data as $key => $value): ?>
-        <?php 
+        <?php
           if ($value->donhang()->first()->trangthai=='da') {
              echo "<div class='detail-tab'>
       <div class='tab-title'>
@@ -580,17 +580,17 @@
           <p style='font-size: 13px;margin-bottom: 1px'>Hương vị: ".$value['huongvisp']."</p>
           <p style='font-size: 15px'>X ".$value['soluong']."</p>
         </div>
-        
+
         <div class='title-price'>
           <p>".$value['dongia']."</p>
         </div>
       </div>
       <hr style='clear: both;border: 0.5px solid gray;'>
-      
+
       <div class='tab-title'>
 
         <div class='title-space'>
-          
+
         </div>
 
         <div class='title-sum'>
@@ -601,7 +601,7 @@
       <div class='tab-title'>
 
         <div class='title-space1'>
-          
+
         </div>
 
         <div class='title-button'>
@@ -610,13 +610,13 @@
       </div>
 
     </div>";
-           } 
+           }
          ?>
       <?php endforeach ?>
     </div>
     <div id="menu4" class="tab-pane fade">
      <?php foreach ($data as $key => $value): ?>
-       <?php 
+       <?php
          if ($value->donhang()->first()->trangthai=='huy') {
            echo "<div class='detail-tab'>
       <div class='tab-title'>
@@ -643,17 +643,17 @@
           <p style='font-size: 13px;margin-bottom: 1px'>Hương vị: ".$value['huongvisp']."</p>
           <p style='font-size: 15px'>X ".$value['soluong']."</p>
         </div>
-        
+
         <div class='title-price'>
           <p>".$value['dongia']."</p>
         </div>
       </div>
       <hr style='clear: both;border: 0.5px solid gray;'>
-      
+
       <div class='tab-title'>
 
         <div class='title-space'>
-          
+
         </div>
 
         <div class='title-sum'>
@@ -664,7 +664,7 @@
       <div class='tab-title'>
 
         <div class='title-space1'>
-          
+
         </div>
 
         <div class='title-button'>
@@ -681,6 +681,6 @@
    </div>
 
  </div>
-  
+
 </body>
 </html>

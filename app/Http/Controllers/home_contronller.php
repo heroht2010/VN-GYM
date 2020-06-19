@@ -680,5 +680,132 @@ class home_contronller extends Controller
 							 ->orWhere('image3','LIKE','%'.$request->key.'%')
 							 ->orWhere('image4','LIKE','%'.$request->key.'%')->get();
 		return response()->json($data);
+    }
+
+    public function cart_Product(Request $request)
+	{
+        $data=giohang_mode::where('id_user',$request->id_user)->get();
+		return response()->json($data);
 	}
+
+	public function addcart_Product(Request $request)
+    {
+    	$ten=$request->ten;
+		$id=$request->id_product;
+		$iduser=$request->id_user;
+
+    	$result=giohang_mode::where([
+			['ten','=',$ten],
+			['id_user','=',$iduser]
+		])->get();
+    	if (($result->count())>0) {
+    		return response()->json(0);
+    	}
+    	else{
+    		$product=new giohang_mode();
+            $product->id_product=$id;
+            $product->image=$request->image;
+            $product->ten=$ten;
+            $product->huongvi=$request->huongvi;
+            $product->price=$request->price;
+            $product->pricesale=$request->pricesale;
+    		$product->loai="";
+            $product->id_user=$iduser;
+            $product->rating=$request->rating;
+    		$product->save();
+           return response()->json(1);
+    	}
+    }
+
+    public function getsame_Product(Request $request)
+    {
+        $data=product_model::select('id_product_type')->where('name',$request->nameproduct)->get();
+         $product=product_model::where('id_product_type',$data->first()->id_product_type)->get();
+        return response()->json($product);
+    }
+
+    public function get_productfavor()
+    {
+        $data=product_model::take(10)->get();
+        return response()->json($data);
+    }
+
+    public function addorder_Product(Request $request)
+    {
+        $madh= Str::random(8)."-".$request->madh;
+		$iduser=$request->id_user;
+		$huongvi=$request->flavor;
+		$price=$request->price;
+		$count=$request->count;
+		$namedeli="Vận chuyển nhanh";
+		$sum=$request->pricesum;
+		$trangthai="cho";
+		$note="";
+        $date=getdate();
+		$donhang= new donhangdetail_model();
+		$donhang->madh=$madh;
+		$donhang->id_user=$iduser;
+		$donhang->id_product=$request->id_product;
+		$donhang->huongvisp=$huongvi;
+		$donhang->soluong=$count;
+		$donhang->dongia=$price;
+		$donhang->tongtien=$sum;
+		$donhang->vanchuyen=$namedeli;
+		$donhang->note=$note;
+
+		$madonhang=new donhang_model();
+		$madonhang->madh=$madh;
+		$madonhang->id_user=$iduser;
+		$madonhang->id_product=$request->id_product;
+		$madonhang->ngaytao=$date['mday']."/".$date['mon']."/".$date['year'];
+		$madonhang->trangthai=$trangthai;
+		$madonhang->ngaynhan=($date['mday']+3)."/".$date['mon']."/".$date['year'];
+
+		$donhang->save();
+		$madonhang->save();
+		return response()->json(1);
+    }
+
+    public function getorder_Product(Request $request)
+    {
+        $data=donhangdetail_model::where('id_user',$request->id_user)->get();
+        $data=$data->sortByDesc('id');
+        return response()->json($data);
+    }
+
+    public function getrating_Product(Request $request)
+    {
+        $data=commentpro_model::where('id_product',$request->id_product)->get();
+        return response()->json($data);
+    }
+
+    public function addcomment_Product(Request $request)
+    {
+        $data=new commentpro_model();
+        $data->id_product=$request->id_product;
+        $data->user=$request->user;
+        $data->rating=$request->ratingstar;
+        $data->comment=$request->descrirating;
+        $data->id_user=$request->id_user;
+        $data->save();
+        return response()->json(1);
+    }
+
+    public function update_Profile(Request $request)
+    {
+        $data=customer_model::find($request->id_user);
+        $data->ho=$request->lastName;
+        $data->ten=$request->firstName;
+        $data->diachi=$request->addr;
+        $data->sdt=$request->phone;
+        $name='';
+        if($request->avart!=''){
+			$name=time().'.jpg';
+				file_put_contents('upload/avart/' .$name,base64_decode($request->avart));
+				$data->avart=$name;
+		}
+        $data->update();
+        return response()->json($name);
+
+    }
 }
